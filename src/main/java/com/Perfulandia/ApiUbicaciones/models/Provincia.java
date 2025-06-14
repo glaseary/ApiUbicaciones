@@ -1,6 +1,5 @@
 package com.Perfulandia.ApiUbicaciones.models;
 
-import java.util.List;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -17,5 +16,5 @@ public class Provincia {
 
     @Column(name = "nombre_provincia", nullable = false, length = 30)
     private String nombreProvincia;
-    
+
 }
